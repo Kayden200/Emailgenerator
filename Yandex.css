@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; /* Light grey background */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;      /* Center the content vertically */
+    min-height: 100vh;      /* Make sure it takes at least the full viewport height */
+}
+
+.container {
+    width: 375px; /* Typical phone width */
+    background-color: #e0b0ff; /* Lavender/purple */
+    border-radius: 0px;
+    overflow: hidden; /* Prevent content from overflowing rounded corners */
+    display: flex;
+    flex-direction: column; /* Stack the header, content, and footer */
+    min-height: 100vh; /* Ensure the container stretches to the full height */
+}
+
+.header {
+    background-color: #ffffff; /* White header */
+    height: 80px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.content-area {
+    padding: 20px;
+    flex-grow: 1;  /* Allows content to take up remaining vertical space */
+}
+
+.generate-email, .check-inbox {
+    background-color: #d8a0ff; /* Slightly lighter lavender */
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.email-input-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.email-button, .copy-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #c480ff; /* Another shade of lavender */
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.generate-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #a860ff; /* Darker lavender */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.email-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.check-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #c480ff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.inbox {
+    background-color: #d8a0ff;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer {
+    background-color: #8000ff; /* Darker purple footer */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.bottom-nav {
+    background-color: #8000ff;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.bottom-nav button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h2 {
+    color: #663399;
+    font-size: 1.5em;
+}
+
+p {
+    color: #663399;
+}
+
+/* Emojis (adjust size as needed) */
+.flower-emoji, .mail-emoji, .moon-emoji, .copy-emoji {
+    font-size: 1.2em;  /* or whatever size you want */
+}
